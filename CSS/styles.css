@@ -419,6 +419,10 @@ a{
     .grid--1x3{
         grid-template-columns: 1fr 1fr 1fr;
     }
+}@media screen and (max-width: 400px) {
+    .grid--1x3{
+        grid-template-columns: 1fr;
+    }
 }
 
 
